@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 
 import Home from "/src/pages/home/index.vue";
+import Vi from "/src/pages/birthday/index.vue";
 
 Vue.use(Router);
 
@@ -12,5 +13,10 @@ export default new Router({
       name: "Home",
       component: Home,
     },
+    {
+      path: '/Vi',
+      name: 'Tường Vi',
+      component: Vi
+    }
   ],
 });
